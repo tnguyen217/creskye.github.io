@@ -1,0 +1,79 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  max-width: 70%;
+  margin: 2rem auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #F7A072;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 2.5rem;
+}
+
+nav a {
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #555;
+}
+
+nav a:hover {
+  color: #F7A072;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  background-color: #96D0D9;
+  width: 35%;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.info {
+  flex-basis: 62%;
+  margin: 2rem 0;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #96D0D9;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #F7A072;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
